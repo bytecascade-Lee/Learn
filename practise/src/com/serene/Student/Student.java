@@ -1,5 +1,9 @@
 package com.serene.Student;
 
+/**
+ * @author Serene Lee
+ * @date 2025/10/18
+ */
 public class Student {
     private int id;
     private String name;
