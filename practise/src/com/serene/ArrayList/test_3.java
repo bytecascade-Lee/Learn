@@ -21,11 +21,11 @@ public class test_3 {
         strList.add("abcde");
         strList.add("xyz");
 
-        printArayList(strList);
+        printArrayList(strList);
 
     }
 
-    public static void printArayList(ArrayList list){
+    public static void printArrayList(ArrayList list){
         StringBuilder sb = new StringBuilder();
         sb.append("[");
         for (int i = 0; i < list.size(); i++) {

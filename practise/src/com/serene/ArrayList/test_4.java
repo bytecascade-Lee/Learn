@@ -18,11 +18,11 @@ public class test_4 {
         intList.add(4);
         intList.add(5);
 
-        printArayList(intList);
+        printArrayList(intList);
 
     }
 
-    public static void printArayList(ArrayList list){
+    public static void printArrayList(ArrayList list){
         StringBuilder sb = new StringBuilder();
         sb.append("[");
         for (int i = 0; i < list.size(); i++) {

@@ -20,11 +20,11 @@ public class test_5 {
         charList.add('y');
         charList.add('z');
 
-        printArayList(charList);
+        printArrayList(charList);
 
     }
 
-    public static void printArayList(ArrayList list) {
+    public static void printArrayList(ArrayList list) {
         StringBuilder sb = new StringBuilder();
         sb.append("[");
         for (int i = 0; i < list.size(); i++) {
