@@ -8,24 +8,23 @@ import java.util.ArrayList;
  * @author Serene Lee
  * @date 2025/10/21
  */
-public class test_3 {
+public class test_5 {
     public static void main(String[] args) {
-        /*
-        需求：定义一个集合，添加字符串，并进行遍历
-        遍历格式参照：[元素1, 元素2, 元素3]。
-         */
+        ArrayList<Character> charList = new ArrayList<>();
+        charList.add('a');
+        charList.add('b');
+        charList.add('c');
+        charList.add('d');
+        charList.add('e');
+        charList.add('x');
+        charList.add('y');
+        charList.add('z');
 
-        ArrayList<String> strList = new ArrayList<>();
-        strList.add("hello");
-        strList.add("what");
-        strList.add("abcde");
-        strList.add("xyz");
-
-        printArayList(strList);
+        printArayList(charList);
 
     }
 
-    public static void printArayList(ArrayList list){
+    public static void printArayList(ArrayList list) {
         StringBuilder sb = new StringBuilder();
         sb.append("[");
         for (int i = 0; i < list.size(); i++) {
