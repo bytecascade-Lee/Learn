@@ -1,8 +1,14 @@
-package com.serene.test_1;
+package com.serene.Algorithm;
 
 import java.util.Random;
 
-public class select_sort {
+/**
+ * Description:
+ *
+ * @author Serene Lee
+ * @date 2025/10/22
+ */
+public class StraightSelectionSort {
     public static void main(String[] args) {
         Random r = new Random();
         int[][] arrs = new int[10][15];
@@ -11,7 +17,7 @@ public class select_sort {
                 arrs[i][j] = r.nextInt(100);
             }
         }
-        select_sort sorter = new select_sort();
+        StraightSelectionSort sorter = new StraightSelectionSort();
 
         for (int i = 0; i < arrs.length; i++) {
             System.out.println("第" + (i + 1) + "组:");

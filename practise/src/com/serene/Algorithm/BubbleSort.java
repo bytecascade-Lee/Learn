@@ -1,8 +1,14 @@
-package com.serene.test_1;
+package com.serene.Algorithm;
 
 import java.util.Random;
 
-public class bubble_sort {
+/**
+ * Description:
+ *
+ * @author Serene Lee
+ * @date 2025/10/22
+ */
+public class BubbleSort {
     public static void main(String[] args) {
         Random r = new Random();
         int[][] arrs = new int[10][15];
@@ -11,7 +17,7 @@ public class bubble_sort {
                 arrs[i][j] = r.nextInt(100);
             }
         }
-        bubble_sort sorter = new bubble_sort();
+        BubbleSort sorter = new BubbleSort();
 
 
         for (int i = 0; i < arrs.length; i++) {
