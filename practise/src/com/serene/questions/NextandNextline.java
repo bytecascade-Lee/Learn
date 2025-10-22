@@ -1,8 +1,8 @@
-package com.serene.test_2;
+package com.serene.questions;
 
 import java.util.Scanner;
 
-public class test_01 {
+public class NextandNextline {
     public static void main(String[] args) {
         // 键盘录入的两套体系不能混用
         Scanner sc = new Scanner(System.in);
