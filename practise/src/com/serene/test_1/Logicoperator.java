@@ -1,4 +1,4 @@
-package com.serene.demo;
+package com.serene.test_1;
 
 public class Logicoperator {
     public static void main(String[] args) {
