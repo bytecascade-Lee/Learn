@@ -1,4 +1,4 @@
-package com.serene.Car;
+package com.serene.car;
 
 public class Car {
     private String brand;

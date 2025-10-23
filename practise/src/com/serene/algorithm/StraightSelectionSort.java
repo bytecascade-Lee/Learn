@@ -1,4 +1,4 @@
-package com.serene.Algorithm;
+package com.serene.algorithm;
 
 import java.util.Random;
 

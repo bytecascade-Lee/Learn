@@ -1,4 +1,4 @@
-package com.serene.Good;
+package com.serene.good;
 
 public class GoodsTest {
     public static void main(String[] args) {

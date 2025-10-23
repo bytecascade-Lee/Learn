@@ -1,4 +1,4 @@
-package com.serene.Car;
+package com.serene.car;
 
 import java.util.Scanner;
 

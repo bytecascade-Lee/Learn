@@ -1,4 +1,4 @@
-package com.serene.Student;
+package com.serene.student;
 
 /**
  * @author Serene Lee

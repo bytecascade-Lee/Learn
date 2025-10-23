@@ -1,4 +1,4 @@
-package com.serene.ArrayList;
+package com.serene.arraylist;
 
 /**
  * Description:
@@ -33,4 +33,5 @@ public class Student {
     public void setAge(int age) {
         this.age = age;
     }
+
 }

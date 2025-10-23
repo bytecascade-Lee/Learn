@@ -1,4 +1,4 @@
-package com.serene.Good;
+package com.serene.good;
 
 public class Goods {
     private String id;

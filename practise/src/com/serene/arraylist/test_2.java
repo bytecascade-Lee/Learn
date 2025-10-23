@@ -1,4 +1,4 @@
-package com.serene.ArrayList;
+package com.serene.arraylist;
 
 import java.util.ArrayList;
 
