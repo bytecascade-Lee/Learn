@@ -1,7 +1,7 @@
 /*
 switch 练习
  */
-package com.serene.test_1;
+package com.serene.basicknowledge;
 
 import java.util.Scanner;
 
