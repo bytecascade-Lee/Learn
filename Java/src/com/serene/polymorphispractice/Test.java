@@ -13,6 +13,7 @@ public class Test {
 
         animalDog.setAge(2);
         animalDog.setColor("黑颜色");
+
         animalCat.setAge(3);
         animalCat.setColor("灰颜色");
 

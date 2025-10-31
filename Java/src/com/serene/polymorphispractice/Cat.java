@@ -6,7 +6,7 @@ package com.serene.polymorphispractice;
  * @author Serene Lee
  * @date 2025/10/30
  */
-public class Cat extends Animal{
+public class Cat extends Animal {
     public Cat() {
     }
 
@@ -16,10 +16,10 @@ public class Cat extends Animal{
 
     @Override
     public void eat(String something) {
-        System.out.println("猫正在吃" + something);
+        System.out.println(getAge() + "岁的" + getColor() + "的狗用两只前腿死死地抱住" + something + "猛吃");
     }
 
-    public void catchMouse(){
+    public void catchMouse() {
         System.out.println("猫在抓老鼠");
     }
 }

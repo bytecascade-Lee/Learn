@@ -11,12 +11,6 @@ import java.util.Random;
  */
 public class Test {
     public static void main(String[] args) {
-        /*
-
-
-
-
-         */
 
         //  1.多态的优势
         //  方法中，使用父类型作为参数，可以接收所有子类对象

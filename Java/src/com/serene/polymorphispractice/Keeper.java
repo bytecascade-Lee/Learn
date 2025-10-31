@@ -36,8 +36,8 @@ public class Keeper {
 
     public void keepPet(Animal animal){
         String obj = animal instanceof Dog ? "的狗" : animal instanceof Cat ? "的猫" : null;
-        String adv = animal instanceof Dog ? "用两只前腿死死地抱住骨头猛吃" : animal instanceof Cat ?  "眯起眼睛侧着头吃鱼" : null;
-        System.out.println("年龄为" + this.age + "岁的" + this.name + "养了一只" + animal.getAge() + "岁的" + animal.getColor() + obj);
-        System.out.println(animal.getAge() + "岁的" + animal.getColor() + obj + adv);
+        String something = animal instanceof Dog ? "骨头" : animal instanceof Cat ? "鱼" : null;
+        System.out.println("年龄为" + age + "岁的" + name + "养了一只" + animal.getAge() + "岁的" + animal.getColor() + obj);
+        animal.eat(something);
     }
 }

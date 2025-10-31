@@ -16,7 +16,7 @@ public class Dog extends Animal{
 
     @Override
     public void eat(String something) {
-        System.out.println("狗正在啃" + something);
+        System.out.println(getAge() + "岁的" + getColor() + "的猫眯起眼睛侧着头吃" + something);
     }
 
     public void lookHome(){
