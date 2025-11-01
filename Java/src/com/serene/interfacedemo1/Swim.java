@@ -1,4 +1,4 @@
-package com.serene.interfacedemo;
+package com.serene.interfacedemo1;
 
 public interface Swim {
     public abstract void swim();
