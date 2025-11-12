@@ -11,9 +11,9 @@ public class test_1 {
         /*
         public Integer(int value)                           根据传递的整数创建一个Integer对象
         public Integer(string s)                            根据传递的字符串创建一个Integer对象
-        public static Integer valueof(int i)                根据传递的整数创建一个Integer对象
-        public static Integer valueof(string s)             根据传递的字符串创建一个Integer对象
-        public static Integer valueof(String s, int radix)  根据传递的字符串和进制创建一个Integer对象
+        public static Integer valueOf(int i)                根据传递的整数创建一个Integer对象
+        public static Integer valueOf(string s)             根据传递的字符串创建一个Integer对象
+        public static Integer valueOf(String s, int radix)  根据传递的字符串和进制创建一个Integer对象
          */
 
         // 3.这两种方式获取对象的区别(掌握)
