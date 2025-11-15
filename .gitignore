@@ -7,3 +7,11 @@
 /Java/out
 /Python/.idea
 /MySQL/.idea
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.PNG
+*.JPG
+*.JPEG
+*.GIF
