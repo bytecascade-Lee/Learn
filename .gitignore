@@ -3,7 +3,6 @@
 **/build/
 **/target/
 **/*.iml
-**/*.*
 *.png
 *.PNG
 *.jpg
