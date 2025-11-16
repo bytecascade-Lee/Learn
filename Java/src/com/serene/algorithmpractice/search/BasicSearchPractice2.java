@@ -1,4 +1,4 @@
-package com.serene.algorithmpractice;
+package com.serene.algorithmpractice.search;
 
 import java.util.ArrayList;
 

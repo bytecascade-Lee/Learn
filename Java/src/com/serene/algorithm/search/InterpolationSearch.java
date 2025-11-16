@@ -1,4 +1,4 @@
-package com.serene.algorithm;
+package com.serene.algorithm.search;
 
 /**
  * Description:
@@ -33,6 +33,9 @@ public class InterpolationSearch {
            }
 
            int middle = min + ((number - arr[min]) * (max - min)) / (arr[max] - arr[min]);
+           if (middle > max) {
+               middle = max;
+           }
 
            if (number > arr[middle]) {
                 min = middle + 1;

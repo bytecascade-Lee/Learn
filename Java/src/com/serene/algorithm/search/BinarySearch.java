@@ -1,4 +1,4 @@
-package com.serene.algorithm;
+package com.serene.algorithm.search;
 
 /**
  * Description:

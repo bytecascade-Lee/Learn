@@ -1,4 +1,4 @@
-package com.serene.algorithm;
+package com.serene.algorithm.search;
 
 /**
  * Description:
@@ -34,15 +34,13 @@ public class BlockSearch {
 
     public static boolean isNumberExists(Block[] blocks, int[] arr, int number) {
         int index = findIndexOfBlock(blocks, number);
-        if (index == -1) {
-            return false;
-        }
-        for (int i = blocks[index].startIndex; i <= blocks[index].endIndex; i++) {
-            if (arr[i] == number) {
-                return true;
+        if (index != -1) {
+            for (int i = blocks[index].startIndex; i <= blocks[index].endIndex; i++) {
+                if (arr[i] == number) {
+                    return true;
+                }
             }
         }
-
         return false;
     }
 
