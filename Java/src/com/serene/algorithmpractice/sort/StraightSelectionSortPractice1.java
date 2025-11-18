@@ -8,7 +8,7 @@ import java.util.Random;
  * @author Serene Lee
  * @date 2025/11/17
  */
-public class StraightSelectionSort {
+public class StraightSelectionSortPractice1 {
     public static void main(String[] args) {
         Random r = new Random();
         int[] arr = new int[10];
