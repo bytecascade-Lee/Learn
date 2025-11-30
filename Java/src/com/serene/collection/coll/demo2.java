@@ -1,4 +1,4 @@
-package com.serene.collection;
+package com.serene.collection.coll;
 
 import java.util.ArrayList;
 import java.util.Collection;
