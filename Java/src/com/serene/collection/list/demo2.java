@@ -1,4 +1,4 @@
-package com.serene.collection.lst;
+package com.serene.collection.list;
 
 import java.util.*;
 
