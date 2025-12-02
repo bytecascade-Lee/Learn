@@ -19,7 +19,7 @@ public class demo2 {
         husbandAndWifeMap.put("尹志平", "小龙女");
         Set<String> husband = husbandAndWifeMap.keySet();
 
-        // 一:利用键找值的方式遍历map集合，要求:装着键的单列集合使用增强for的形式进行遍历
+        // 练习一:利用键找值的方式遍历map集合，要求:装着键的单列集合使用增强for的形式进行遍历
         for (String s : husband) {
             System.out.println(s + " = " + husbandAndWifeMap.get(s));
         }
