@@ -1,7 +1,5 @@
 package com.serene.str;
 
-import java.util.Scanner;
-
 /**
  * Description:
  *

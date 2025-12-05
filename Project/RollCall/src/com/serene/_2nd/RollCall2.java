@@ -40,8 +40,7 @@ public class RollCall2 {
             girlList.add(new Student(10001 + i, 0));
         }
 
-        length = TOTAL_NUMBER - length;
-        for (int i = 0; i < length; i++) {
+        for (int i = length; i < TOTAL_NUMBER; i++) {
             boyList.add(new Student(11001 + i, 1));
         }
 
