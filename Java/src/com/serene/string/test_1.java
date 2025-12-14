@@ -1,4 +1,4 @@
-package com.serene.str;
+package com.serene.string;
 
 /**
  * Description: java.util.lang  创建字符串对象

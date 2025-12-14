@@ -1,4 +1,4 @@
-package com.serene.str;
+package com.serene.string;
 
 /**
  * Description: 根据身份证号码提取信息

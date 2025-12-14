@@ -1,4 +1,4 @@
-package com.serene.str;
+package com.serene.string;
 
 /**
  * Description: 敏感词替换
