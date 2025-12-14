@@ -18,9 +18,10 @@ public class demo1 {
         list1.add("张三丰");
 
         // 使用stream流一行搞定
-        list1.stream().filter(s -> s.startsWith("张")).
-                filter(s -> s.length() == 3).
-                forEach(name -> System.out.println(name));
+        list1.stream()
+                .filter(s -> s.startsWith("张"))
+                .filter(s -> s.length() == 3)
+                .forEach(System.out::println);
 
         for (String s : list1) {
             if (s.startsWith("张") && s.length() == 3) {
