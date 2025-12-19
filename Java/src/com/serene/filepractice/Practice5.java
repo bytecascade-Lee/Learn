@@ -33,7 +33,9 @@ public class Practice5 {
 
         for (File fl : files) {
             if (fl.isFile()) {
-                String key = fl.getName().split("\\.")[1];
+                String[] arr = fl.getName().split("\\.");
+                int len = arr.length;
+                String key = len == 1 ? "" : arr[len - 1].toLowerCase();
                 map.put(key, map.getOrDefault(key, 0) + 1);
             } else {
                 HashMap<String, Integer> map1 = find(fl);

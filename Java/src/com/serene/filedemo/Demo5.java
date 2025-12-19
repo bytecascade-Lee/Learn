@@ -1,4 +1,4 @@
-package com.serene.file;
+package com.serene.filedemo;
 
 import java.io.File;
 // import java.io.FilenameFilter;
