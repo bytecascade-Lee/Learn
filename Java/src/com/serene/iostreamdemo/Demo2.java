@@ -1,4 +1,4 @@
-package com.serene.iostream;
+package com.serene.iostreamdemo;
 
 import java.io.File;
 import java.io.FileOutputStream;
