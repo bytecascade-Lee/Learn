@@ -1,5 +1,9 @@
 package com.serene.iostream;
 
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+
 /**
  * Description:
  *
@@ -7,7 +11,7 @@ package com.serene.iostream;
  * @date 2025/12/19
  */
 public class Demo12 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         /*
         FileReader
 
@@ -27,6 +31,21 @@ public class Demo12 {
         成员方法                                说明
         public int close()                      释放资源/关流
          */
+
+        // 使用FileReader对象读取《滕王阁序》然后输出
+
+        File file = new File("./src/com/serene/iostream/test/3.txt");
+        FileReader fRd = new FileReader(file);
+
+        char[] chars = new char[1024];
+        int len;
+        while ((len = fRd.read(chars)) != -1) {
+            System.out.print(new String(chars, 0, len));
+        }
+
+        System.out.println();
+        fRd.close();
+
     }
 
 }
