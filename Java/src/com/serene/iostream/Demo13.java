@@ -1,4 +1,4 @@
-package com.serene.iostreamdemo;
+package com.serene.iostream;
 
 /**
  * Description:
