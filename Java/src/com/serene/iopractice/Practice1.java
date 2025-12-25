@@ -1,19 +1,19 @@
 package com.serene.iopractice;
 
 import cn.hutool.core.io.FileUtil;
+import cn.hutool.core.util.ReUtil;
+import cn.hutool.http.HttpUtil;
 
+//import java.io.BufferedWriter;
 import java.io.File;
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.net.URL;
-import java.net.URLConnection;
+//import java.io.InputStreamReader;
+//import java.net.URL;
+//import java.net.URLConnection;
 import java.nio.charset.StandardCharsets;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Random;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import java.util.*;
+//import java.util.regex.Matcher;
+//import java.util.regex.Pattern;
 
 /**
  * Description:
@@ -72,7 +72,7 @@ public class Practice1 {
     }
 
     public static String webCrawler(String net) throws IOException {
-        StringBuilder sb = new StringBuilder();
+        /*StringBuilder sb = new StringBuilder();
 
         URL url = new URL(net);
         URLConnection urlConnection = url.openConnection();
@@ -87,18 +87,21 @@ public class Practice1 {
 
         cInRd.close();
 
-        return sb.toString();
+        return sb.toString();*/
+        return HttpUtil.get(net);
     }
 
     public static ArrayList<String> getData(String rawString, String regex, int index) {
-        ArrayList<String> arrayList = new ArrayList<>();
+        /*ArrayList<String> arrayList = new ArrayList<>();
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(rawString);
         while (matcher.find()) {
             arrayList.add(matcher.group(index));
         }
 
-        return arrayList;
+        return arrayList;*/
+
+        return (ArrayList<String>) ReUtil.findAll(regex, rawString, index);
     }
 
     public static ArrayList<String> generateNameList(ArrayList<String> familyNameList, ArrayList<String> givenNameList, int count, boolean gender) {
@@ -121,6 +124,15 @@ public class Practice1 {
     }
 
     public static void writeNameList(File file, ArrayList<String> nameList) throws IOException {
+        /*BufferedWriter bWrt = new BufferedWriter(new FileWriter(file));
+
+        for (String string : nameList) {
+            bWrt.write(string);
+            bWrt.newLine();
+        }
+
+        bWrt.close(); */
+
         FileUtil.appendLines(nameList, file, StandardCharsets.UTF_8);
     }
 

@@ -17,7 +17,7 @@ public class Demo1 {
         public static String toString(数组)                           把数组拼接成一个字符串
         public static int binarySearch(数组，查找的元素)              分查找法查找元素
         public static int[] copyOf(原数组,新数组长度)                 拷贝数组
-        public static int[]copyOfRange(原数组,起始索引,结束索引)      拷贝数组(指定范围)
+        public static int[] copyOfRange(原数组,起始索引,结束索引)      拷贝数组(指定范围)
         public static void fill(数组,元素)                            填充数组
         public static void sort(数组)                                 按照默认方式进行数组排序
         public static void sort(数组，排序规则)                       按照指定的规则排序
@@ -30,7 +30,7 @@ public class Demo1 {
         System.out.println(Arrays.toString(arr));
 
         // binarySearch:二分查找法查找元素
-        // 细节1:二分查找的前提:数组中的元素必须是有序，数组中的元素必须是升序的
+        // 细节1:二分查找的前提:数组中的元素必须是有序的，数组中的元素必须是升序的
         // 细节2:如果要查找的元素是存在的，那么返回的是真实的索引
         // 但是，如果要查找的元素是不存在的，返回的是-插入点 -1
         // 疑问:为什么要减1呢?
