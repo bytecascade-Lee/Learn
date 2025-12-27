@@ -1,7 +1,7 @@
 package com.serene.thread;
 
 /**
- * Description:
+ * Description:多线程第二种启动方式
  *
  * @author Serene Lee
  * @date 2025/12/26
