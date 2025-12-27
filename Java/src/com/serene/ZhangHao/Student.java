@@ -223,14 +223,15 @@ public class Student implements Serializable {
         if (o == null || getClass() != o.getClass()) {
             return false;
         }
-        Student student = (Student) o;
-        return total == student.total && chinese == student.chinese && math == student.math && english == student.english && physics == student.physics && chemistry == student.chemistry && biology == student.biology && Objects.equals(id, student.id) && Objects.equals(name, student.name);
+        // 判断是否相同时，不必考虑成绩，只要学号相同，则必定为同一个人
+        String id1 = ((Student) o).id;
+        return Objects.equals(id, id1);
     }
 
     @Override
     public String toString() {
-        return "Student{考号 = " + id + ", 姓名 = " + name + ", 总分 = " + total +
+        return "考号 = " + id + ", 姓名 = " + name + ", 总分 = " + total +
                 ", 语文 = " + chinese + ", 数学 = " + math + ", 英语 = " + english +
-                ", 物理 = " + physics + ", 化学 = " + chemistry + ", 生物 = " + biology + "}";
+                ", 物理 = " + physics + ", 化学 = " + chemistry + ", 生物 = " + biology;
     }
 }

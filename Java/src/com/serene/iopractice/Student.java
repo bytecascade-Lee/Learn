@@ -130,6 +130,6 @@ public class Student implements Serializable {
 
     @Override
     public String toString() {
-        return "Student{name = " + name + ", gender = " + gender + ", age = " + age + ", weight = " + weight + "}";
+        return "姓名 = " + name + ", 性别 = " + gender + ", 年龄 = " + age + ", 权重" + weight;
     }
 }
